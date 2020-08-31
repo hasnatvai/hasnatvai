@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	int n=1, a;
+	printf("enter the number");
+	scanf("%d",&a);
+	while (n<=a) {
+		printf("%d\n",n);
+		n++;
+	}
+	return 0;
+}
